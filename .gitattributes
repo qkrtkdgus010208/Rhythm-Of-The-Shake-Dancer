@@ -1,2 +1,2 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# C# 파일을 주요 언어로 인식
+*.cs linguist-detectable=true
