@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f8b95bad66bb1241a4e0c95e30d27c1, type: 3}
+  m_Name: New Data Base_Manager
+  m_EditorClassIdentifier: 
+  bgmDataArr:
+  - clip: {fileID: 8300000, guid: 75dec6346d24b2044b21116a6aa151b1, type: 3}
+    volume: 0.5
+    bgmType: 10
+  - clip: {fileID: 8300000, guid: a99be10387dcc3a4caa4a3393a4bb9db, type: 3}
+    volume: 0.5
+    bgmType: 20
+  - clip: {fileID: 8300000, guid: d099dc6f9bd444a41bda6968f15f6fa1, type: 3}
+    volume: 0.5
+    bgmType: 30
+  sfxDataArr:
+  - clip: {fileID: 8300000, guid: 9c7a25e64cff30d4ab7bc8e832a1ff31, type: 3}
+    volume: 0.5
+    sfxType: 10
+  - clip: {fileID: 8300000, guid: fd4dcb386819fca439173cd89b9a7865, type: 3}
+    volume: 1
+    sfxType: 20
+  - clip: {fileID: 8300000, guid: b65e48be0f8c94f47a90d4d336acd59a, type: 3}
+    volume: 0.5
+    sfxType: 30
+  - clip: {fileID: 8300000, guid: 6a4c57e6e3f7b2e419833d296a9febeb, type: 3}
+    volume: 0.5
+    sfxType: 40
+  mapSpaceMinX: -2
+  mapSpaceMaxX: 2
+  mapSpaceMaxY: 7
+  playTime: 100
+  goalScore: 10000
+  basePopText: {fileID: 9003610892778639680, guid: a04435c2c98528a4b943072e02f8aa8c, type: 3}
+  popTextInterval: 0.15
+  basePopTextUI: {fileID: 1587867869064925038, guid: c23215765b8373444ab2871482822c35, type: 3}
+  beatInterval: 1
+  beatFailColor: {r: 1, g: 0, b: 0, a: 1}
+  beatFailPopTextColor: {r: 1, g: 1, b: 1, a: 1}
+  beatFailPopTextStr: "\uC544\uC26C\uC6CC.."
+  beatFailPoptextFontSize: 40
+  beatAccuracyDataArr:
+  - accuracyValue: 0.02
+    bonusValue: 0.1
+    AccuracyImgColor: {r: 0, g: 1, b: 0.003921509, a: 1}
+    popTextColor: {r: 0.6712615, g: 0.98884326, b: 0.6618517, a: 1}
+    popTextStr: "\uC644\uBCBD\uD574!!!"
+    fontSize: 70
+  - accuracyValue: 0.04
+    bonusValue: 0.04
+    AccuracyImgColor: {r: 0.015089965, g: 0.5635766, b: 0, a: 1}
+    popTextColor: {r: 0.22830188, g: 0.23232862, b: 1, a: 1}
+    popTextStr: "\uCD5C\uACE0\uC57C!"
+    fontSize: 60
+  - accuracyValue: 0.07
+    bonusValue: 0.02
+    AccuracyImgColor: {r: 0, g: 0, b: 0, a: 0}
+    popTextColor: {r: 1, g: 1, b: 1, a: 1}
+    popTextStr: "\uC88B\uC558\uC5B4!"
+    fontSize: 50
+  JumpPower: 0.5
+  JumpDuration: 0.25
+  blockDropDuration: 0.25
+  baseBlock: {fileID: 7566012924285747622, guid: c074a441559d226438d906d02ce71a70, type: 3}
+  itemBlockSprite: {fileID: 21300000, guid: 3a931002ea07465448dfef2be6918447, type: 3}
+  obstacleBlockSprite: {fileID: 21300000, guid: 0ab59b6c400779e4b85323594247aaab, type: 3}
+  itemSpawnPer: 0.5
+  obstacleSpawnPer: 0.5
+  itemScore: 100
