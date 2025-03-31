@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f8b95bad66bb1241a4e0c95e30d27c1, type: 3}
-  m_Name: New Data Base_Manager
+  m_Script: {fileID: 11500000, guid: b17627d86e60ab34a896a902d2f7ded1, type: 3}
+  m_Name: Data Base_Manager
   m_EditorClassIdentifier: 
   bgmDataArr:
   - clip: {fileID: 8300000, guid: 75dec6346d24b2044b21116a6aa151b1, type: 3}
@@ -40,37 +40,37 @@ MonoBehaviour:
   mapSpaceMaxY: 7
   playTime: 100
   goalScore: 10000
-  basePopText: {fileID: 9003610892778639680, guid: a04435c2c98528a4b943072e02f8aa8c, type: 3}
+  basePopText: {fileID: 695962412564786833, guid: a04435c2c98528a4b943072e02f8aa8c, type: 3}
   popTextInterval: 0.15
-  basePopTextUI: {fileID: 1587867869064925038, guid: c23215765b8373444ab2871482822c35, type: 3}
+  basePopTextUI: {fileID: 7385689322533101438, guid: c23215765b8373444ab2871482822c35, type: 3}
   beatInterval: 1
   beatFailColor: {r: 1, g: 0, b: 0, a: 1}
   beatFailPopTextColor: {r: 1, g: 1, b: 1, a: 1}
-  beatFailPopTextStr: "\uC544\uC26C\uC6CC.."
+  beatFailPopTextStr: "\uC544\uC26C\uC6CC..."
   beatFailPoptextFontSize: 40
   beatAccuracyDataArr:
   - accuracyValue: 0.02
     bonusValue: 0.1
-    AccuracyImgColor: {r: 0, g: 1, b: 0.003921509, a: 1}
-    popTextColor: {r: 0.6712615, g: 0.98884326, b: 0.6618517, a: 1}
+    AccuracyImgColor: {r: 0.06440425, g: 1, b: 0, a: 1}
+    popTextColor: {r: 0.47296518, g: 0.8785889, b: 0.44967318, a: 1}
     popTextStr: "\uC644\uBCBD\uD574!!!"
     fontSize: 70
   - accuracyValue: 0.04
     bonusValue: 0.04
-    AccuracyImgColor: {r: 0.015089965, g: 0.5635766, b: 0, a: 1}
-    popTextColor: {r: 0.22830188, g: 0.23232862, b: 1, a: 1}
+    AccuracyImgColor: {r: 0, g: 0.058282375, b: 1, a: 1}
+    popTextColor: {r: 0, g: 0.66679883, b: 1, a: 1}
     popTextStr: "\uCD5C\uACE0\uC57C!"
     fontSize: 60
   - accuracyValue: 0.07
     bonusValue: 0.02
     AccuracyImgColor: {r: 0, g: 0, b: 0, a: 0}
     popTextColor: {r: 1, g: 1, b: 1, a: 1}
-    popTextStr: "\uC88B\uC558\uC5B4!"
+    popTextStr: "\uC88B\uC558\uC5B4"
     fontSize: 50
   JumpPower: 0.5
   JumpDuration: 0.25
   blockDropDuration: 0.25
-  baseBlock: {fileID: 7566012924285747622, guid: c074a441559d226438d906d02ce71a70, type: 3}
+  baseBlock: {fileID: 2018420919785982711, guid: c074a441559d226438d906d02ce71a70, type: 3}
   itemBlockSprite: {fileID: 21300000, guid: 3a931002ea07465448dfef2be6918447, type: 3}
   obstacleBlockSprite: {fileID: 21300000, guid: 0ab59b6c400779e4b85323594247aaab, type: 3}
   itemSpawnPer: 0.5
