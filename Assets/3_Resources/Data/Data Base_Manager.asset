@@ -52,13 +52,13 @@ MonoBehaviour:
   - accuracyValue: 0.02
     bonusValue: 0.1
     AccuracyImgColor: {r: 0.06440425, g: 1, b: 0, a: 1}
-    popTextColor: {r: 0.47296518, g: 0.8785889, b: 0.44967318, a: 1}
+    popTextColor: {r: 0.59322006, g: 0.8628383, b: 0.5775142, a: 1}
     popTextStr: "\uC644\uBCBD\uD574!!!"
     fontSize: 70
   - accuracyValue: 0.04
     bonusValue: 0.04
-    AccuracyImgColor: {r: 0, g: 0.058282375, b: 1, a: 1}
-    popTextColor: {r: 0, g: 0.66679883, b: 1, a: 1}
+    AccuracyImgColor: {r: 0.015686275, g: 0.5647059, b: 0, a: 1}
+    popTextColor: {r: 0.22745098, g: 0.23137255, b: 1, a: 1}
     popTextStr: "\uCD5C\uACE0\uC57C!"
     fontSize: 60
   - accuracyValue: 0.07
